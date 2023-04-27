@@ -1,0 +1,33 @@
+$cardColor: #446688;
+$textColor: #00FFFF;
+$buttonColor: #0e394b;
+
+mat-card {
+  max-width: 480px;
+  color: $textColor;
+  background-color: $cardColor;
+  padding: 12px;
+}
+
+mat-card-title {
+  color: $textColor;
+}
+
+mat-card-actions {
+  padding: 4px 12px 12px 12px;
+}
+
+.mat-dialog-content {
+  color: $textColor;
+}
+
+.close-button-genre {
+  color: $textColor;
+  background-color: $buttonColor;
+}
+
+.details-view {
+  background-color: $cardColor;
+  height: 100%;
+  width: 100%;
+}
