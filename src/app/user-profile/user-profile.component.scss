@@ -1,0 +1,38 @@
+$cardColor: #446688;
+$textColor: #00FFFF;
+$buttonColor: #0e394b;
+
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.mat-card-profile {
+  max-width: 420px;
+  color: $textColor;
+  background-color: $cardColor;
+  padding: 12px;
+}
+
+.mat-card-header {
+  color: $textColor;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.mat-card-content {
+  color: $textColor;
+}
+
+mat-card-actions {
+  position: absolute;
+  padding: 4px 12px 12px 12px;
+}
+
+mat-import-element{
+  color: $textColor;
+}
+
+
