@@ -1,0 +1,19 @@
+<mat-card class="details-view">      
+  <mat-card-title>
+    <p>{{ data.Name }}</p>
+  </mat-card-title>
+    <mat-dialog-content class="mat-dialog-content">
+      <p>Description: {{data.Description }}</p>
+    </mat-dialog-content>
+  <mat-card-actions>
+    <button
+      class="close-button-genre"
+      mat-stroked-button
+      aria-label="Close Genre Details"
+      mat-dialog-close
+      color="secondary"
+    >
+      Close
+    </button>
+  </mat-card-actions>
+</mat-card>
