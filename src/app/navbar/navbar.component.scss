@@ -1,0 +1,13 @@
+$cardColor: #446688;
+$textColor: #00FFFF;
+
+.navbar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: $textColor;
+  background-color: $cardColor;
+  margin: 0,0,5,5;
+}
