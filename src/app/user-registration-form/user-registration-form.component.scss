@@ -1,0 +1,17 @@
+$cardColor: #446688;
+$textColor: #00FFFF;
+$buttonColor: #0e394b;
+
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: $buttonColor;
+}
+
+.mat-card-signup {
+  max-width: 500px;
+  color: $textColor;
+  background-color: $cardColor;
+}
