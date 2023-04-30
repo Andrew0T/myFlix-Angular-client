@@ -6,33 +6,39 @@ $buttonColor: #0e394b;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
   padding: 30px 40px;
+  background-color: $buttonColor;
+  height: 100%;
+
 }
 
 .mat-card-profile {
-  max-width: 420px;
+  max-width: 300px;
   color: $textColor;
   background-color: $cardColor;
   padding: 12px;
 }
 
 .mat-card-header {
-  color: $textColor;
-  font-size: larger;
-  font-weight: 400;
+  color: $buttonColor;
 }
 
-.mat-card-content {
+h2 {
+  color: $textColor;
+  font-weight: 500;
+}
+
+h3 {
+  color: $textColor;
+  font-weight: 200;
+}
+
+mat-card-content {
   color: $textColor;
 }
 
-mat-card-actions {
+.mat-card-actions {
   position: absolute;
   padding: 4px 12px 12px 12px;
 }
-
-mat-import-element{
-  color: $textColor;
-}
-
-
