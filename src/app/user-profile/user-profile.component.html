@@ -1,14 +1,14 @@
 <app-navbar />
-<div class="profile-page">
+<div style="display: flex;" class="profile-page">
   <mat-card class="mat-card-profile">
     <mat-card-header class="mat-card-header">
       <mat-card-title>
-        <h2>User Profile</h2>
+        <h2 class="user-profile">User Profile</h2>
         <br>
-        <h3>Hello {{userData.Username}}</h3>
+        <h3  class="welcome-back">Hello {{userData.Username}}</h3>
       </mat-card-title>
     </mat-card-header>
-    <mat-card-content class="mat-card-content">
+    <mat-card-content>
       <form>
         <mat-form-field>
           <input
@@ -55,17 +55,17 @@
         <button
           mat-raised-button
           (click)="updateProfile()"
-          color="primary"
+          color="secondary"
         >
           Update Profile
         </button>
         <button
           mat-raised-button
           (click)="deleteUser()"
-          color="danger"
+          color="primary"
         >
-          Delete account
-        </button>
+        Delete account
+      </button>
     </mat-card-actions>
   </mat-card>
 </div>
